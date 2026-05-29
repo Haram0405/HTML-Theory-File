@@ -54,7 +54,7 @@
 
 <br>
 <b>Class Attribute:</b> <br><br> A reusable name given to multiple elements on a webpage. You can use it to apply the same style to many items at once. It uses the . prefix in CSS.
-<br>
+<br><br>
 <b>Code Example:</b>
 
 ```html
@@ -65,19 +65,13 @@
 <p class="error-text">First Error</p>
 <p class="error-text">Second Error</p>
 ```
-<br>
+
 <h3>Question 6:  How do you create a form in HTML? Which input types are commonly used?</h3>
 <h3>Answer:</h3>
 <b>Form Tag:</b> The form tag acts as a wrapper container to gather user information.<br><br>
 <b>Action and Method:</b> The action attribute tells the form where to send the data, and the method defines how securely the data is sent.<br><br>
 <b>Input Types:</b> Different input tags accept different types of data, such as usernames, secure passwords, or checkboxes.
-<br>
-<h3>Question 7:  What are meta tags in HTML and why are they used?</h3>
-<h3>Answer:</h3>
-<b>Definition:</b> Small snippets of code placed inside the head tag that provide hidden information about the webpage.<br><br>
-<b>Visibility:</b> Regular users cannot see them on the screen, but search engines and browsers read them.<br><br>
-<b>Usage:</b> They are used to set character encoding (UTF-8), write website descriptions for Google search results, and manage mobile responsiveness.
-<br>
+<br><br>
 <b>Code Example:</b>
 
 ```html
@@ -88,6 +82,13 @@
   <input type="submit" value="Register Now">
 </form>
 ```
+<h3>Question 7:  What are meta tags in HTML and why are they used?</h3>
+<h3>Answer:</h3>
+<b>Definition:</b> Small snippets of code placed inside the head tag that provide hidden information about the webpage.<br><br>
+<b>Visibility:</b> Regular users cannot see them on the screen, but search engines and browsers read them.<br><br>
+<b>Usage:</b> They are used to set character encoding (UTF-8), write website descriptions for Google search results, and manage mobile responsiveness.
+<br>
+
 <h3>Question 8:  Explain the purpose of the alt attribute in the img tag.</h3>
 <h3>Answer:</h3>
 <b>Screen Readers:</b> It describes what an image shows to blind or visually impaired users by reading the text out loud.<br><br>
