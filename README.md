@@ -1,11 +1,10 @@
-
 <h2>Brief Answers</h2>
 <h3>Question 0:  What is HTML and what is the difference between HTML and HTML5?</h3>
 <h3>Answer:</h3>
     <b>i- HTML(Old Version):</b><br><br> The basic code used to build websites in the past. It could not play video or audio without using slow extra software like flash player.<br><br>
     <b>ii- HTML5(Modern Standard):</b><br><br> The latest version used today. It has native support to play video and audio directly inside the browser.<br><br>
     <b>iii- Mobile Friendly:</b><br><br> HTML5 includes mobile responsive features so website look perfect on the smartphones automatically.
-<br><br>
+<br>
 
 <h3>Question 1:  What are semantic HTML tags? Why are they important in web development?</h3>
 <h3>Answer:</h3>
@@ -15,6 +14,7 @@
         <br><br>
       <b>Example:</b> header, nav, article, section, footer(tags).
 <br>
+
 <h3>Question 2:  What is the difference between div and span tags?</h3>
 <h3>Answer:</h3>
      <b>Div Tag:</b><br> <br> i- It is a block level tag.<br> ii- A large container box used to group layout sections. <br> iii- It always starts on a brand new line and takes up the full width of the screen.<br>
@@ -28,6 +28,7 @@
   <p>This is a <span>red</span> word inside a layout box.</p>
 </div>
 ```
+
 <h3>Question 3:  Explain the difference between block-level elements and inline elements.</h3>
 <h3>Answer:</h3>
 <br>
@@ -50,7 +51,7 @@
 <h3>Question 5:  What is the difference between id and class attributes?</h3>
 <h3>Answer:</h3>
 <b>ID Attribute:</b><br><br> A unique name given to exactly one element on a webpage. You cannot reuse the same ID name on that page. It uses the # prefix in CSS.
-<br><br>
+
 <br>
 <b>Class Attribute:</b> <br><br> A reusable name given to multiple elements on a webpage. You can use it to apply the same style to many items at once. It uses the . prefix in CSS.
 <br>
@@ -77,6 +78,7 @@
 <b>Visibility:</b> Regular users cannot see them on the screen, but search engines and browsers read them.<br><br>
 <b>Usage:</b> They are used to set character encoding (UTF-8), write website descriptions for Google search results, and manage mobile responsiveness.
 <br>
+<b>Code Example:</b>
 
 ```html
 <form action="/submit-data" method="POST">
@@ -95,6 +97,13 @@
 <h3>Question 9:  How do you make an image clickable in HTML?</h3>
 <h3>Answer:</h3>
 <b>The Link Wrapper:</b> To turn an image into a clickable button, you wrap a standard img tag completely inside an a (anchor) hyperlink tag.<br><br>
+<b>Code Example:</b>
+
+```html
+<a href="https://google.com">
+  <img src="search-logo.png" alt="Google Search Button">
+</a>
+```
 
 <br><br>
 <h3>Question 10: What is the difference between JPG, PNG, SVG, and WebP image formats in web development?</h3>
@@ -123,7 +132,15 @@
 <h3>Answer:</h3>
 <b>Native Elements:</b> HTML5 uses direct video and audio tags so you do not need third-party media applications.<br><br>
 <b>The Controls Keyword:</b> You must add the word controls inside the tag, or the play, pause, and volume buttons will be invisible to the user.
-    <img width="390" height="103" alt="image" src="https://github.com/user-attachments/assets/04479eed-e322-405c-b2b7-ddc1e15ff9d5" />
+<b>Code Example:</b>
+
+```html
+<!-- Video Player -->
+<video src="movie.mp4" controls width="300"></video>
+
+<!-- Audio Player -->
+<audio src="song.mp3" controls></audio>
+```
 <br>
 
 <h3>Question 14: What is the difference between relative paths and absolute paths in HTML?</h3>
@@ -138,14 +155,21 @@
 <b>Purpose:</b> They let you store your own custom, private information directly inside an HTML tag without breaking layout rules.<br><br>
 <b>Syntax:</b> You start the attribute name with data- followed by any lowercase word you choose.<br><br>
 <b>JavaScript Link:</b> Developers look up these values later using JavaScript to create interactive, dynamic page updates.
-<img width="465" height="35" alt="image" src="https://github.com/user-attachments/assets/dfe62dcb-bfdd-459f-be7e-c2fcb1c01aa5" />
+<b>Code Example:</b>
 
+```html
+<div data-user-id="5501" data-membership="premium">John Doe</div>
+```
 <br>
 <h3>Question 16:  What is the purpose of the viewport meta tag in responsive web design?</h3>
 <h3>Answer:</h3>
 <b>The Problem:</b> Mobile phones inherently try to open websites using giant desktop layouts, making all the text look microscopic.<br><br>
 <b>The Solution:</b> This tag tells the browser to automatically resize the webpage scale to fit the exact width of whatever mobile device screen is opening it.
-<img width="502" height="35" alt="image" src="https://github.com/user-attachments/assets/d2f99a49-b5f4-46f2-b16a-6c63db7f93a0" />
+<b>Code Example:</b>
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 <br>
 <h3>Question 17:  How can you improve SEO using HTML?</h3>
