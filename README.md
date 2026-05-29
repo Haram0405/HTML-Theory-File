@@ -6,6 +6,7 @@
     <b>ii- HTML5(Modern Standard):</b><br><br> The latest version used today. It has native support to play video and audio directly inside the browser.<br><br>
     <b>iii- Mobile Friendly:</b><br><br> HTML5 includes mobile responsive features so website look perfect on the smartphones automatically.
 <br><br>
+
 <h3>Question 1:  What are semantic HTML tags? Why are they important in web development?</h3>
 <h3>Answer:</h3>
       <b>Definition:</b> Tags that clearly describe their meaning to both the developer and the browser. <br>Like, header tag tells the browser it is a top section.
