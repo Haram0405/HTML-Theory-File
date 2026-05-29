@@ -78,7 +78,14 @@
 <b>Usage:</b> They are used to set character encoding (UTF-8), write website descriptions for Google search results, and manage mobile responsiveness.
 <br>
 
-
+```html
+<form action="/submit-data" method="POST">
+  <input type="text" placeholder="Enter Name">
+  <input type="email" placeholder="Enter Email">
+  <input type="password" placeholder="Enter Password">
+  <input type="submit" value="Register Now">
+</form>
+```
 <h3>Question 8:  Explain the purpose of the alt attribute in the img tag.</h3>
 <h3>Answer:</h3>
 <b>Screen Readers:</b> It describes what an image shows to blind or visually impaired users by reading the text out loud.<br><br>
