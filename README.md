@@ -65,7 +65,7 @@
 <p class="error-text">First Error</p>
 <p class="error-text">Second Error</p>
 ```
-
+<br>
 <h3>Question 6:  How do you create a form in HTML? Which input types are commonly used?</h3>
 <h3>Answer:</h3>
 <b>Form Tag:</b> The form tag acts as a wrapper container to gather user information.<br><br>
@@ -94,7 +94,7 @@
 <b>Screen Readers:</b> It describes what an image shows to blind or visually impaired users by reading the text out loud.<br><br>
 <b>Broken Images:</b> If a user has a weak internet connection and the image fails to load, this text is displayed in its place.<br><br>
 <b>SEO Boost:</b> Search engines cannot visually look at photos, so they read the alt text to understand what the image represents.
-<br><br>
+<br>
 <h3>Question 9:  How do you make an image clickable in HTML?</h3>
 <h3>Answer:</h3>
 <b>The Link Wrapper:</b> To turn an image into a clickable button, you wrap a standard img tag completely inside an a (anchor) hyperlink tag.<br><br>
@@ -106,14 +106,14 @@
 </a>
 ```
 
-<br><br>
+<br>
 <h3>Question 10: What is the difference between JPG, PNG, SVG, and WebP image formats in web development?</h3>
 <h3>Answer:</h3>
 <b>JPG:</b> Best for normal realistic photographs. It offers small file sizes but does not support see-through backgrounds.<br><br>
 <b>PNG: </b>Best for logos, clip art, and screenshots. It supports high quality and fully transparent, see-through backgrounds.<br><br>
 <b>SVG:</b> A vector format based on math code. It can be stretched infinitely to any size without getting blurry or pixelated.<br><br>
 <b>WebP: </b>A modern format created by Google. It provides the clear quality of a PNG but keeps the tiny file size of a JPG.
-<br><br>
+<br>
 <h3>Question 11:  What are semantic tags introduced in HTML5 such as header, footer, section, and article?</h3>
 <h3>Answer:</h3>
 <b>header tag:</b> Used at the top of a webpage to hold logos, site names, and introduction menus.<br><br>
