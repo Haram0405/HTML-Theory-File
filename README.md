@@ -22,8 +22,12 @@
       <b>Span Tag:</b><br> <br> i-  It is an inline tag.<br> ii- A small container used to style specific words or text. <br> iii- It does not start a new line and stays inside the same sentence.<br>
 <br>
 <b>Code Example:</b><br>
-<img width="437" height="64" alt="image" src="https://github.com/user-attachments/assets/e67bccb9-db1b-4681-b0bd-9feff868a4dd" />
 
+```html
+<div>
+  <p>This is a <span>red</span> word inside a layout box.</p>
+</div>
+```
 <h3>Question 3:  Explain the difference between block-level elements and inline elements.</h3>
 <h3>Answer:</h3>
 <br>
@@ -50,7 +54,16 @@
 <br>
 <b>Class Attribute:</b> <br><br> A reusable name given to multiple elements on a webpage. You can use it to apply the same style to many items at once. It uses the . prefix in CSS.
 <br>
-<b>Code Example:</b> <br> <img width="288" height="121" alt="image" src="https://github.com/user-attachments/assets/f97e6d9e-7174-412c-b13c-75371dff6d52" />
+<b>Code Example:</b>
+
+```html
+<!-- ID used once -->
+<h1 id="main-heading">Welcome</h1>
+
+<!-- Class used multiple times -->
+<p class="error-text">First Error</p>
+<p class="error-text">Second Error</p>
+```
 <br>
 <h3>Question 6:  How do you create a form in HTML? Which input types are commonly used?</h3>
 <h3>Answer:</h3>
@@ -64,6 +77,8 @@
 <b>Visibility:</b> Regular users cannot see them on the screen, but search engines and browsers read them.<br><br>
 <b>Usage:</b> They are used to set character encoding (UTF-8), write website descriptions for Google search results, and manage mobile responsiveness.
 <br>
+
+
 <h3>Question 8:  Explain the purpose of the alt attribute in the img tag.</h3>
 <h3>Answer:</h3>
 <b>Screen Readers:</b> It describes what an image shows to blind or visually impaired users by reading the text out loud.<br><br>
@@ -73,7 +88,7 @@
 <h3>Question 9:  How do you make an image clickable in HTML?</h3>
 <h3>Answer:</h3>
 <b>The Link Wrapper:</b> To turn an image into a clickable button, you wrap a standard img tag completely inside an a (anchor) hyperlink tag.<br><br>
-<img width="404" height="61" alt="image" src="https://github.com/user-attachments/assets/d19e89aa-dfe3-4575-8e2a-fd4ae93de1b6" />
+
 <br><br>
 <h3>Question 10: What is the difference between JPG, PNG, SVG, and WebP image formats in web development?</h3>
 <h3>Answer:</h3>
