@@ -88,27 +88,27 @@
 <b>section:</b> Groups matching content together, like a "Contact Us" or "Services" block.<br><br>
 <b>article:</b> Used for independent content that can be read anywhere on its own, like a blog post or news story.<br><br>
 <b>footer:</b> Placed at the very bottom of the page for copyright notes and privacy links.
-<br><br>
+<br>
+
 <h3>Question 12:  What is the difference between script, async, and defer in HTML?</h3>
 <h3>Answer:</h3>
 <b> (Normal) script:</b> The browser completely stops building the website HTML until the JavaScript file is fully downloaded and executed. This slows down the page.<br><br>
 <b>Async (script async):</b> The JavaScript downloads in the background while the HTML builds, but the moment it finishes downloading, it pauses the HTML to execute immediately. It can run out of order.<br><br>
 <b>Defer (script defer):</b> The JavaScript downloads quietly in the background and politely waits until the entire HTML layout is fully built before executing. This is the best practice.
-<br><br>
+<br>
 <h3>Question 13:  How do you embed audio and video in HTML5?</h3>
 <h3>Answer:</h3>
 <b>Native Elements:</b> HTML5 uses direct video and audio tags so you do not need third-party media applications.<br><br>
 <b>The Controls Keyword:</b> You must add the word controls inside the tag, or the play, pause, and volume buttons will be invisible to the user.
     <img width="390" height="103" alt="image" src="https://github.com/user-attachments/assets/04479eed-e322-405c-b2b7-ddc1e15ff9d5" />
-
-<br><br>
+<br>
 
 <h3>Question 14: What is the difference between relative paths and absolute paths in HTML?</h3>
 <h3>Answer:</h3>
 <b>Relative Path:</b> Links to a file based on your current folder location inside your project. Ideal for local development files.<br><br>
 <b>Example:</b> src="images/avatar.png"<br><br>
 <b>Absolute Path:</b> Links to the complete web URL address on the internet. Used when pulling resources from external websites.Example: src="https://example.com"
-<br><br>
+<br>
 
 <h3>Question 15:  What are data attributes in HTML (data-*)? Where are they used?</h3>
 <h3>Answer:</h3>
@@ -117,26 +117,26 @@
 <b>JavaScript Link:</b> Developers look up these values later using JavaScript to create interactive, dynamic page updates.
 <img width="465" height="35" alt="image" src="https://github.com/user-attachments/assets/dfe62dcb-bfdd-459f-be7e-c2fcb1c01aa5" />
 
-<br><br>
+<br>
 <h3>Question 16:  What is the purpose of the viewport meta tag in responsive web design?</h3>
 <h3>Answer:</h3>
 <b>The Problem:</b> Mobile phones inherently try to open websites using giant desktop layouts, making all the text look microscopic.<br><br>
 <b>The Solution:</b> This tag tells the browser to automatically resize the webpage scale to fit the exact width of whatever mobile device screen is opening it.
 <img width="502" height="35" alt="image" src="https://github.com/user-attachments/assets/d2f99a49-b5f4-46f2-b16a-6c63db7f93a0" />
 
-<br><br>
+<br>
 <h3>Question 17:  How can you improve SEO using HTML?</h3>
 <h3>Answer:</h3>
 <b>Heading Order:</b> Use exactly one h1 tag for the main topic of your page, followed in structural order by h2 and h3 tags for subsections.<br><br>
 <b>Page Titles:</b> Write descriptive, keyword-rich names inside the <title> tag located in your page header.<br><br>
 <b>Structural Elements:</b> Stop using empty div boxes for everything. Use descriptive layout wrappers like main, article, and nav.
-<br><br>
+<br>
 <h3>Question 18:  What are accessibility best practices in HTML?</h3>
 <h3>Answer:</h3>
 <b>Input Labels:</b> Use explicit label tags connected to form fields via the for attribute so screen readers tell users exactly what to type.<br><br>
 <b>Keyboard Control:</b> Ensure all links, buttons, and form inputs can be fully navigated using just the keyboard Tab key.<br><br>
 <b>High Contrast:</b> Ensure text colors are distinct and dark enough against background elements so they are easy for everyone to read.
-<br><br>
+<br>
 
 <h3>Question 19:  What is the difference between strong vs b and em vs i tags?</h3>
 <h3>Answer:</h3>
@@ -144,4 +144,3 @@
 <b>b</b>: Bolds text purely for visual style and design. It adds no extra meaning or importance.<br><br>
 <b>em:</b> Emphasizes the conversational tone of a word. Visually displays as italic.<br><br>
 <b>i:</b> Italicizes text purely for visual style, such as when formatting technical terms, foreign words, or fictional thoughts.
-<br><br>
